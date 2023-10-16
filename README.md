@@ -27,3 +27,5 @@ You will need to setup some environment variables before building the project.
 3. `bundle exec rails db:create`
 4. `docker compose up`
 5. The api is available on http://localhost:3000
+6. `terraform apply --auto-approve` to build infra
+7. `bundle exec shoryuken -q hello -R` to start worker
